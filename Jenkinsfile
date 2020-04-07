@@ -17,7 +17,7 @@ sshPublisher(publishers: [sshPublisherDesc(configName: 'Ansible',
 transfers: [sshTransfer(cleanRemote: false, excludes: '', 
 execCommand: '''ansible-playbook -i /opt/docker/hosts /opt/docker/docker-create-push-webapp.yml --limit localhost
 
-ansible-playbook -i /opt/docker/hosts /opt/docker/docker-pull-run-webapp.yml --limit 168.61.23.253''', execTimeout: 120000, flatten: false, 
+ansible-playbook -i /opt/docker/hosts /opt/docker/docker-pull-run-webapp.yml --limit 18.221.230.12''', execTimeout: 120000, flatten: false, 
 makeEmptyDirs: false, noDefaultExcludes: false, patternSeparator: '[, ]+', 
 remoteDirectory: '//opt/docker', 
 remoteDirectorySDF: false, 
